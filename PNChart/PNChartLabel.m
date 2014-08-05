@@ -18,7 +18,7 @@
     if (self) {
         // Initialization code
 
-        [self setFont:[UIFont boldSystemFontOfSize:11.0f]];
+        [self setFont:[UIFont fontWithName:@"AvenirNext-Regular" size:11.0f]];
         self.backgroundColor = [UIColor clearColor];
         [self setTextAlignment:NSTextAlignmentCenter];
         self.userInteractionEnabled = YES;
